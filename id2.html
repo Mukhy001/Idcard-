@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student ID Card</title>
+  <style>
+    body {background: rgb(97, 210, 248); font-family: sans-serif; margin: 20px;}
+    .id-card {
+        margin-top: 15%;
+        margin-left: 30%;
+      width: 400px; height: 220px; padding: 10px; background:rgb(219, 242, 246); padding: 15px;
+      border-radius: 10px; box-shadow: 0 0 15px rgba(187, 198, 200, 0.3);
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .photo img {width: 90px; height: 120px; border-radius: 5px;}
+    .details {
+      flex: 1; margin-left: 20px;
+    }
+    .logo img {width: 55px;
+    border: 1px solid black;
+border-radius: 50px;}
+    .header {
+      color: blue; font-weight: bold; text-align: center;
+      font-size: 13px; margin-bottom: 6px; 
+    }
+    .red-box {
+      background: red; color: white; padding: 2px 5px;
+      border-radius: 15px;
+      display: inline-block; margin: 8px 0; font-weight: bold; text-align: center;
+    }
+    .text {color: green; font-size: 12px; line-height: 1.4;}
+    .text span {font-weight: bold;}
+  </style>
+</head>
+<body>
+  <div class="id-card">
+    <div class="photo">
+      <img src="idphoto.jpg" alt="Student Photo" onclick="changephoto()">
+
+    </div>
+    <div class="details">
+      <div class="header">
+        IBRAHIM BADAMASI BABANGIDA UNIVERSITY <br>
+        P.M.B 11 LAPAI, NIGER STATE
+      </div>
+      <div class="red-box">STUDENT IDENTITY CARD</div>
+      <div class="text">
+        <span>Name:</span> Muhammad Mukhtar Muhammad<br>
+        <span>Dept:</span> Computer Science<br>
+        <span>Matric No.:</span> U22/FNS/CSC/1289<br>
+        <span>Expiration Date:</span> 31/12/2026<br>
+        <span>Signature:</span> __________________
+      </div>
+    </div>
+    <div class="logo">
+      <img src="idlogo.png" alt="University Logo">
+    </div>
+    </div>
+    <!--
+    <button onclick="document.getElementById"(my image).src="idcard.html/Compressed CamScanner 04-20-2025 17.05_2.jpg">
+        click to see original
+
+    </button>
+    <img id="">
+    still on the javascript
+-->
+    
+</body>
+</html>
